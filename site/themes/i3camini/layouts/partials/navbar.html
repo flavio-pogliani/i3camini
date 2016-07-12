@@ -1,0 +1,39 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed"
+          data-toggle="collapse" data-target="#full-navigation"
+          aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="{{ relref . "index.md" }}">
+        <img src="{{ "images/logo.png" | relURL }}" />
+      </a>
+    </div> 
+
+    <div class="collapse navbar-collapse" id="full-navigation">
+      <ul class="nav navbar-nav">
+        {{ $page := . }}
+        {{ $lang := .Params.lang | default "en" }}
+        {{ $menu := index .Site.Menus $lang | default (slice) }}
+        {{ range $menu }}
+        <li class="{{ if (eq .Name $page.Title) }}active{{end}}">
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="">
+          <a href="{{ relref . "gallery.md" }}"> Gallery </a>
+        </li>
+      </ul>
+    </div> 
+
+  </div>
+</nav>

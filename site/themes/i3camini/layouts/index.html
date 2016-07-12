@@ -1,0 +1,87 @@
+{{ $.Scratch.Add "_home" false -}}
+{{ range .Data.Pages -}}
+  {{ if (in .Params.tags "_home") -}}
+    {{ $.Scratch.Set "_home" . -}}
+  {{ end -}}
+{{ end -}}
+{{ $home := $.Scratch.Get "_home" -}}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Site.Title }}</title>
+    {{ partial "header.html" . }}
+  </head>
+
+  <body>
+    <div class="container-fluid content">
+      <div class="row">
+        {{ partial "navbar.html" . }}
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <a href="{{ relref . "it/prices.md" }}" class="thumbnail">
+            <img src="{{ "images/home/it.jpg" | relURL }}" alt="Italiano">
+            <div class="caption">
+              <h3>Italiano</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <a href="{{ relref . "en/prices.md" }}" class="thumbnail">
+            <img src="{{ "images/home/en.jpg" | relURL }}" alt="English">
+            <div class="caption">
+              <h3>English</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <a href="{{ relref . "de/prices.md" }}" class="thumbnail">
+            <img src="{{ "images/home/de.jpg" | relURL }}" alt="Deutsche">
+            <div class="caption">
+              <h3>Deutsche</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <a href="{{ relref . "fr/prices.md" }}" class="thumbnail">
+            <img src="{{ "images/home/fr.jpg" | relURL }}" alt="Français">
+            <div class="caption">
+              <h3>Français</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <a href="{{ relref . "es/prices.md" }}" class="thumbnail">
+            <img src="{{ "images/home/es.jpg" | relURL }}" alt="Español">
+            <div class="caption">
+              <h3>Español</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-2">
+          <a href="{{ relref . "gallery.md" }}" class="thumbnail">
+            <img src="{{ "images/home/gallery.jpg" | relURL }}" alt="Gallery">
+            <div class="caption">
+              <h3>Gallery</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          {{ if $home }}
+            {{ if $home.Content }}
+            <div class="well">
+              {{ $home.Content }}
+            </div>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

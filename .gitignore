@@ -1,0 +1,5 @@
+assets/bower_components/
+assets/node_modules/
+out/
+
+*.swp

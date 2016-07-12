@@ -1,0 +1,16 @@
+offerte:
+  notte_e_cena: 90
+  notte_e_lezione: 90
+  2_notti_e_1_cena: 165
+  lezione: 35
+
+tariffe:
+  doppia_singolo: 40
+  doppia:
+    da: 55
+    a:  70
+  tripla:
+    da: 70
+    a:  90
+  letto: 15
+  sconto: 10

@@ -1,0 +1,18 @@
+images:
+  - path: images/gallery/front.jpg
+    title: The front entrance
+
+  - path: images/gallery/rubino_s.jpg
+    title: The Rubino room
+
+  - path: images/gallery/salone_s.jpg
+    title: The upstairs room
+
+  - path: images/gallery/spazio_comune_s.jpg
+    title: The common room
+
+  - path: images/gallery/topazio_s.jpg
+    title: The Topazio room
+
+  - path: images/gallery/view.jpg
+    title: The panoramic view

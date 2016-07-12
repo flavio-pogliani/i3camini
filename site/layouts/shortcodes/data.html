@@ -1,0 +1,9 @@
+{{ $.Scratch.Add "data" .Site.Data -}}
+{{ range .Params -}}
+  {{ $data := $.Scratch.Get "data" -}}
+  {{ $data := index $data . -}}
+  {{ $.Scratch.Set "data" $data -}}
+{{ end -}}
+
+{{ $data := $.Scratch.Get "data" -}}
+{{ printf "%#v" $data -}}

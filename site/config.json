@@ -1,0 +1,15 @@
+{
+   "baseurl": "http://trecamini.net",
+   "languageCode": "it-it",
+   "publishdir": "../out",
+
+   "canonifyurls": false,
+   "relativeURLs": true,
+
+   "contentdir": "content",
+   "theme": "i3camini",
+   "pygmentsuseclasses": true,
+
+   "title": "I3 Camini",
+   "copyright": "Copyright (c) 2016, Flavio Pogliani"
+}
