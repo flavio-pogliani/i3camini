@@ -1,15 +1,36 @@
 images:
-  - path: images/gallery/front.jpg
+  - path: images/gallery/3c_ingresso_2s.jpg
     title: The front entrance
+
+  - path: images/gallery/view.jpg
+    title: Dalla canmera / The panoramic view
+
+  - path: images/gallery/3c_topazio_2s.JPG
+    title: The Topazio room
+  - path: images/gallery/3c_topazio_3s.jpg
+    title: The Topazio room
 
   - path: images/gallery/rubino_s.jpg
     title: The Rubino room
+  - path: images/gallery/3c_rubino_2s.jpg
+    title: The Rubino room
+  - path: images/gallery/3c_balconcino_s.JPG
+    title: The Rubino room
+
+  - path: images/gallery/bagno_s.jpg
+    title: il bagno / the bathroom
 
   - path: images/gallery/spazio_comune_s.jpg
-    title: The common room
+    title: La sala colazione/relax / The breackfast/common room
 
-  - path: images/gallery/topazio_s.jpg
-    title: The Topazio room
+  - path: images/gallery/3c_camino_s.jpg
+    title: Il caminetto sala / The firepace
 
-  - path: images/gallery/view.jpg
-    title: The panoramic view
+  - path: images/gallery/3c_atrio_s.jpg
+    title: l'ingresso / the entrance
+
+  - path: images/gallery/3c_corridoio_s.jpg
+    title: alle camere / to the rooms
+
+  - path: images/gallery/3c_giardino_s.jpg
+    title: Il giardino / The garden
