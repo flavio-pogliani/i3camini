@@ -15,21 +15,31 @@
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 
           <div id="links">
+            {{ $.Scratch.Add "gallery_col" 0 -}}
+            {{ range .Site.Data.gallery.images -}}
+
+            {{ $idx := $.Scratch.Get "gallery_col" -}}
+            {{ $.Scratch.Set "gallery_col" (add $idx 1) -}}
+
+            {{ if eq (mod $idx 4) 0 -}}
+            {{ if $idx -}}
+            </div> <!-- .row -->
+            {{ end -}}
             <div class="row">
-              {{ range .Site.Data.gallery.images }}
+            {{ end -}}
               <div class="col-xs-12 col-sm-4 col-md-3">
                 <a href="{{ relURL .path }}" title="{{ .title }}"
                     class="thumbnail" data-gallery>
                   <img src="{{ relURL .path }}">
                 </a>
-              </div>
-              {{ end }}
-            </div>
-          </div>
+              </div> <!-- .col-xs-12.col-sm-4.col-md-3 -->
+            {{ end -}}
+            </div> <!-- .row -->
+          </div> <!-- #links -->
 
-        </div>
-      </div>
-    </div>
+        </div> <!-- .col-xs-12.col-sm-10.col-sm-offset-1.col-md-8.col-md-offset-2 -->
+      </div> <!-- .row -->
+    </div> <!-- .container-fluid.content -->
 
 	  <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
 		<div id="blueimp-gallery"
