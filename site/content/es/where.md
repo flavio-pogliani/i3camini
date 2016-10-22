@@ -1,16 +1,16 @@
 +++
 date = "2016-07-08T10:02:25+01:00"
-title = "Wo sind wir"
+title = "Dónde estamos"
 
-lang = "de"
+lang = "es"
 [menu]
-  [menu.de]
+  [menu.es]
     weight = 2
 +++
 
 
 <div class="alert alert-warning" role="alert">
-  <b>Übersetzung noch nicht fertig</b>
+  <b>Traducción aún no está listo</b>
 </div>
 
 

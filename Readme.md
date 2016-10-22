@@ -38,6 +38,9 @@ Build
 ### Assets
 `make -C assets build`
 
+### Site
+`cd site && hugo`
+
 
 Tools
 -----

@@ -1,16 +1,16 @@
 +++
-date = "2016-07-08T10:02:25+01:00"
-title = "Wo sind wir"
+date = "2016-07-08T00:28:48+01:00"
+title = "Où sommes-nous"
 
-lang = "de"
+lang = "fr"
 [menu]
-  [menu.de]
-    weight = 2
+  [menu.fr]
+    weight = 3
 +++
 
 
 <div class="alert alert-warning" role="alert">
-  <b>Übersetzung noch nicht fertig</b>
+  <b>Traduction pas encore prêt</b>
 </div>
 
 
