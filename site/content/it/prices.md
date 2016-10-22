@@ -85,3 +85,16 @@ Per verificare le disponibilità e per perenotazioni camere contattateci:
 Periodo di apertura
 -------------------
 Il B&B I3 Camini è aperto da Marzo a Novembre e nel periodo natalizio.
+
+
+<div id="TA_cdsscrollingravenarrow84" class="TA_cdsscrollingravenarrow">
+  <ul id="lEvgfIdEBfCR" class="TA_links wTrteEP0afc">
+    <li id="49Aymj2FWNwG" class="gcFgmNUPgzX">
+      <a target="_blank" href="https://www.tripadvisor.it/">
+        <img src="https://static.tacdn.com/img2/t4b/Stacked_TA_logo.png"
+             alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO" />
+      </a>
+    </li>
+  </ul>
+</div>
+<script src="https://www.jscache.com/wejs?wtype=cdsscrollingravenarrow&amp;uniq=84&amp;locationId=2136774&amp;lang=it&amp;border=true&amp;display_version=2"></script>

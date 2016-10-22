@@ -90,3 +90,16 @@ To check availability and to book contact us:
 Opening season
 --------------
 The B&B I3 Camini is open from March to November and during the Christmas period.
+
+
+<div id="TA_cdsscrollingravenarrow933" class="TA_cdsscrollingravenarrow">
+  <ul id="Xt1YXDsZ3i" class="TA_links JLSJjEX">
+    <li id="DFBBYHG7Ud3z" class="78xotecuj">
+      <a target="_blank" href="https://www.tripadvisor.de/">
+        <img src="https://static.tacdn.com/img2/t4b/Stacked_TA_logo.png"
+             alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO" />
+      </a>
+    </li>
+  </ul>
+</div>
+<script src="https://www.jscache.com/wejs?wtype=cdsscrollingravenarrow&amp;uniq=933&amp;locationId=2136774&amp;lang=de&amp;border=true&amp;display_version=2"></script>
