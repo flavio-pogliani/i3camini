@@ -1,5 +1,6 @@
 assets/bower_components/
 assets/node_modules/
+old/
 out/
 
 *.swp

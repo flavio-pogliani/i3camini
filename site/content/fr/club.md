@@ -5,7 +5,7 @@ title = "Le Club"
 lang = "fr"
 [menu]
   [menu.fr]
-    weight = 2
+    weight = 3
 +++
 
 

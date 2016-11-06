@@ -4,13 +4,15 @@ images:
 
   - path: images/gallery/view.jpg
     title: Dalla canmera / The panoramic view
+  - path: images/gallery/3c_notturna_1.jpg
+    title: Dalla canmera, di sera / The panoramic view, in the evening
 
   - path: images/gallery/3c_topazio_2s.JPG
     title: The Topazio room
   - path: images/gallery/3c_topazio_3s.jpg
     title: The Topazio room
 
-  - path: images/gallery/rubino_s.jpg
+  - path: images/gallery/3c_rubino_01.jpg
     title: The Rubino room
   - path: images/gallery/3c_rubino_2s.jpg
     title: The Rubino room
