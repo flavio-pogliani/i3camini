@@ -9,26 +9,6 @@ lang = "it"
 +++
 
 
-La struttura
-------------
-Sito in Perledo (Varenna) sul lago di Como, Vi mettiamo a disposizione 2
-stanze, la Rubino e la Topazio con splendida vista panoramica, bagno con
-doccia idromassaggio, giardino, sala comune per la colazione e per il
-vostro relax, WI-FI, parking ticket.
-
-Disponibilità posto auto coperto Eliana e Flavio saranno lieti di
-offrirvi informazioni turistiche e storiche dei luoghi e suggerimenti
-per le vostre giornate.
-Possibilità cene come ass. culinaria.
-
-Base ideale sia per le vostre gite in auto, crociere sul lago o
-passeggiate a Varenna e castello di Vezio, lungo il sentiero del
-viandante o nel parco delle Grigne.
-
-In auto siamo a 50 min. da Como/Sondro, 1h da Milano/Lugano (Swiss),
-1 h 20 min. dagli aeroporti di Orio al Serio/Malpensa, 2 h da St. Moriz (Swiss)
-
-
 Il luogo
 --------
 Ci trovate in Perledo, Lecco, via per Esino, 68.

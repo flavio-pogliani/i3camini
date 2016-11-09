@@ -41,6 +41,9 @@ Build
 ### Site
 `cd site && hugo`
 
+### Upload
+`aws --profile=trecamini-net s3 sync --delete out s3://www.trecamini.net`
+
 
 Tools
 -----

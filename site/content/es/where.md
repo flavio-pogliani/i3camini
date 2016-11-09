@@ -14,24 +14,6 @@ lang = "es"
 </div>
 
 
-El Edificio
------------
-En la zona central del lago de Como, área de Varenna, estamos a 1h 30 min.
-Hermosa vista panorámica, conexión gratuita a internet, servicio de cortesía.
-Tenemos 2 dormitorios, cuarto de baño con ducha, sala común,
-posibilidad cenas y plazas de garaje.
-
-Eliana y Flavio estará encantado de ofrecer información turística y
-lugares históricos y consejos x sus días.
-
-Una gran base para excursiones de un día en coche, cruceros por el lago o en
-Varenna y el castillo de Vezio, a lo largo de la ruta del viajero o en el
-parque de Grigne.
-
-En coche estamos a 1 hora de Milán/ Lugano (Suiza), a 1 h 20 min. desde el
-aeropuerto de Orio al Serio/ Malpensa, 2 h de St. Moritz (Suiza).
-
-
 The location
 ------------
 Our address is Perledo, Lecco, via per Esino, 68.

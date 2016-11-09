@@ -87,6 +87,27 @@ To check availability and to book contact us:
   * By phone calling number 0039 3771998356
 
 
+Gebäude
+-------
+Unser Bed und Breakfast bietet Ihnen ein geraeumiges Ambiente und Komfort und
+von Ihrem Zimmer aus ein beeindruckendes Panorama auf das Herzstueck des Sees
+sowie auf ds Schloss von Vezio. [s. Beschreibung] Reception in italian und
+english.
+
+Lediglich 2. 3 km entfernt von Varenna, gelegen, ist unser bed and breakfast
+der ideale Ausgangspunkt fuer Ihre Ausfluege zum See, ins Valtellina und
+Valsassina, sowie um die oertlichen Wanderwege und Wanderpfade, die
+versteckten Schaetze und Schoenheiten der Staedte am Comer See.
+
+Schliesslich koennen Sie die allabendliche Entspannung geniessen sowie den
+Service, der allen Mitgliedern des Clubs "Amici de I Tre Camini"
+geboten wird, schaetzen lernen. 
+
+Mit Vergnuegen stehen Ihnen Eliana und Flavio mit ihren Geschichts-und
+Ortskenntnissen zur Verfuegung, um Ihnen Ihren Aufenthalt so angenehm
+wie irgend moeglich zu gestalten.
+
+
 Opening season
 --------------
 The B&B I3 Camini is open from March to November and during the Christmas period.
