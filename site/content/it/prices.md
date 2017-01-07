@@ -1,4 +1,4 @@
-+++
+﻿+++
 date = "2016-07-08T00:30:45+01:00"
 title = "Prezzi"
 
@@ -26,7 +26,7 @@ Le seguenti offerte sono disponibili per 2 ospiti:
    €/persona.
 
 Per maggiori informazioni contattate Flavio all'indirizzo
-[info@trecamini.net](info@trecamini.net) o al numero 0039 3771998356.
+[prenota@trecamini.net](prenota@trecamini.net) o al numero 0039 3771998356.
 
 
 Tariffe

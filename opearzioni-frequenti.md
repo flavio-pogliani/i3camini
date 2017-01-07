@@ -1,4 +1,4 @@
-Aggornare la copia locale
+3.a Aggornare la copia locale
 -------------------------
 L'interfaccia di [Github For Windows](https://desktop.github.com/)
 permette di scaricare l'ultima vesione the codice.
