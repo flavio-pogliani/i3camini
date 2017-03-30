@@ -107,16 +107,3 @@ By car we are 50 min. far from Como/Sondrio, 1h far from Milano/Lugano (Swiss),
 Opening season
 --------------
 The B&B I3 Camini is open from March to November and during the Christmas period.
-
-
-<div id="TA_cdsscrollingravenarrow772" class="TA_cdsscrollingravenarrow">
-  <ul id="DU2tE1" class="TA_links aSzPTMZXZjt">
-    <li id="uB8AAXTih" class="OzuDmWjq6FN">
-      <a target="_blank" href="https://www.tripadvisor.co.uk/">
-        <img src="https://static.tacdn.com/img2/t4b/Stacked_TA_logo.png"
-             alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO" />
-      </a>
-    </li>
-  </ul>
-</div>
-<script src="https://www.jscache.com/wejs?wtype=cdsscrollingravenarrow&amp;uniq=772&amp;locationId=2136774&amp;lang=en_UK&amp;border=true&amp;display_version=2"></script>
