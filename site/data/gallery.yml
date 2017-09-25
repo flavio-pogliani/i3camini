@@ -20,7 +20,7 @@ images:
     title: The Rubino room
 
   - path: images/gallery/bagno_s.jpg
-    title: il bagno / the bathroom
+    title: Il bagno / The bathroom
 
   - path: images/gallery/spazio_comune_s.jpg
     title: La sala colazione/relax / The breackfast/common room
@@ -29,10 +29,13 @@ images:
     title: Il caminetto sala / The firepace
 
   - path: images/gallery/3c_atrio_s.jpg
-    title: l'ingresso / the entrance
+    title: L'ingresso / The entrance
 
   - path: images/gallery/3c_corridoio_s.jpg
-    title: alle camere / to the rooms
+    title: Alle camere / To the rooms
 
   - path: images/gallery/3c_giardino_s.jpg
     title: Il giardino / The garden
+
+  - path: images/gallery/3c_360gradi_sito.jpg
+    title: La vista / The view

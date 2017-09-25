@@ -36,13 +36,20 @@ The code is versioned using git and available on GitHub.com.
 Build
 -----
 ### Assets
-`make -C assets build`
+```
+make -C assets build
+```
 
 ### Site
-`cd site && hugo`
+```
+cd site && hugo
+```
 
 ### Upload
-`aws --profile=trecamini-net s3 sync --delete out s3://www.trecamini.net`
+```bash
+aws --profile=trecamini-net s3 sync --delete out s3://www.trecamini.net
+aws --profile=trecamini-net s3 sync --delete out s3://trecamini.net
+```
 
 
 Tools
