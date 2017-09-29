@@ -55,5 +55,4 @@ Per prima cosa e' necessario generare il sito localmente:
 Il sito finale viene salvato in `./out`.
 Copiare il contenuto di questa cartella su AWS S3 nei bucket:
 
-  * trecamini.net
-  * www.trecamini.net
+  * origin.trecamini.net

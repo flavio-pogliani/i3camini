@@ -22,8 +22,8 @@ images:
   - path: images/gallery/bagno_s.jpg
     title: Il bagno / The bathroom
 
-  - path: images/gallery/spazio_comune_s.jpg
-    title: La sala colazione/relax / The breackfast/common room
+  - path: images/gallery/3c_giardino_s.jpg
+    title: Il giardino / The garden
 
   - path: images/gallery/3c_camino_s.jpg
     title: Il caminetto sala / The firepace
@@ -34,8 +34,8 @@ images:
   - path: images/gallery/3c_corridoio_s.jpg
     title: Alle camere / To the rooms
 
-  - path: images/gallery/3c_giardino_s.jpg
-    title: Il giardino / The garden
+  - path: images/gallery/spazio_comune_s.jpg
+    title: La sala colazione/relax / The breackfast/common room
 
   - path: images/gallery/3c_360gradi_sito.jpg
     title: La vista / The view
