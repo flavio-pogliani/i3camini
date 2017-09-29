@@ -25,6 +25,7 @@ To check availability and to book rooms contact us:
   </div>
 
   <div class="col-xs-7">
-    <iframe src="https://www.google.com/maps/d/embed?mid=1s0Px4xAMGmvHhUPaDqhRb4DeFbQ" width="100%" height="480"></iframe>
+    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAhMNXOEwBGUnS2CUKfXJjqS8YgS-3BOvQ&q=place_id:ChIJMY2ZFrcXhEcRP6gMmCUUAuU"
+        width="100%" height="480"></iframe>
   </div>
 </div>
