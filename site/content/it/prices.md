@@ -15,15 +15,15 @@ Le seguenti offerte sono disponibili per 2 ospiti:
 
  * 1 notte e cena a soli
    {{< data "prezzi" "offerte" "notte_e_cena" >}}
-   € (bevande escluse).
+   € (bevande escluse, vedi club).
  * 1 notte e 1 lezione del corso Pillole di Cucina a
-   {{< data "prezzi" "offerte" "notte_e_lezione" >}} €.
+   {{< data "prezzi" "offerte" "notte_e_lezione" >}} € (vedi club).
  * 2 notti e 1 cena a soli
    {{< data "prezzi" "offerte" "2_notti_e_1_cena" >}}
-   € (bevande escluse).
+   € (bevande escluse, vedi club).
  * 1 lezione del corso Pillole di Cucina a
    {{< data "prezzi" "offerte" "lezione" >}}
-   €/persona.
+   €/persona (vedi club).
 
 Per maggiori informazioni contattate Flavio all'indirizzo
 [prenota@trecamini.net](prenota@trecamini.net) o al numero 0039 3771998356.
