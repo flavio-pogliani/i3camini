@@ -14,21 +14,21 @@ lang = "es"
 </div>
 
 
-Offers (for 2 guests)
----------------------
+Ofertas (para 2 personas)
+-------------------------
 The following offers are available for 2 guests:
 
- * 1 night and dinner for only
+ * 1 noche + cena solamente
    {{< data "prezzi" "offerte" "notte_e_cena" >}}
-   € (excluding beverages, see club).
- * 1 night and 1 cooking lesson for only
-   {{< data "prezzi" "offerte" "notte_e_lezione" >}} € (see club).
- * 2 nights and 1 dinner for only
+   € (excluyendo bebidas, ver 'club').
+ * 1 noche y 1 clase de cocina solamente
+   {{< data "prezzi" "offerte" "notte_e_lezione" >}} € (ver 'club').
+ * 2 noches y 1 cena solamente
    {{< data "prezzi" "offerte" "2_notti_e_1_cena" >}}
-   € (excluding beverages, see club).
- * 1 cooking lesson
+   € (excluyendo bebidas, ver 'club').
+ * Lección de cocina
    {{< data "prezzi" "offerte" "lezione" >}}
-   €/person (see club).
+   €/persona (ver 'club').
 
 For more information contact Flavio at the address
 [info@trecamini.net](info@trecamini.net) or at number 0039 3771998356.
