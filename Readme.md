@@ -47,8 +47,7 @@ cd site && hugo
 
 ### Upload
 ```bash
-aws --profile=trecamini-net s3 sync --delete out s3://www.trecamini.net
-aws --profile=trecamini-net s3 sync --delete out s3://trecamini.net
+aws --profile=trecamini-net s3 sync --delete out s3://origin.trecamini.net
 ```
 
 
