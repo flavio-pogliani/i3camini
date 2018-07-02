@@ -49,7 +49,10 @@ All prices include breakfast.
 
     <tr>
       <td>Double room (single use)</td>
-      <td>{{< data "prezzi" "tariffe" "doppia_singolo" >}} €/night</td>
+      <td>
+        From {{< data "prezzi" "tariffe" "doppia_singolo" "da" >}}
+        to {{< data "prezzi" "tariffe" "doppia_singolo" "a" >}} €/night
+      </td>
     </tr>
 
     <tr>
@@ -71,6 +74,14 @@ All prices include breakfast.
     <tr>
       <td>Supplementary bed</td>
       <td>{{< data "prezzi" "tariffe" "letto" >}} €/night</td>
+    </tr>
+
+    <tr>
+      <td colspan=2 class="text-center">
+        <a class="btn btn-primary" href="mailto:prenota@trecamini.net?subject=Booking request">
+          Contact us to book
+        </a>
+      </td>
     </tr>
 
   </tbody>

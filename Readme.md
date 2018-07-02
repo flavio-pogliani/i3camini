@@ -22,7 +22,7 @@ Tools installation (Windows)
 Step one and two up to `Setup SSH Key with Hosted Git Repository` excluded.
 
 
-### Hugo
+### Hugo (https://github.com/gohugoio/hugo/releases/tag/v0.16)
 
   * Windows installer: https://github.com/spf13/hugo/releases
   * Tutorial: https://gohugo.io/tutorials/installing-on-windows/

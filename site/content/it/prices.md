@@ -44,7 +44,10 @@ Tutte le tariffe includono la colazione.
 
     <tr>
       <td>Camera doppia (uso singolo)</td>
-      <td>{{< data "prezzi" "tariffe" "doppia_singolo" >}} €/notte</td>
+      <td>
+        Da {{< data "prezzi" "tariffe" "doppia_singolo" "da" >}}
+        a {{< data "prezzi" "tariffe" "doppia_singolo" "a" >}} €/notte
+      </td>
     </tr>
 
     <tr>
@@ -66,6 +69,14 @@ Tutte le tariffe includono la colazione.
     <tr>
       <td>Letto supplementare</td>
       <td>{{< data "prezzi" "tariffe" "letto" >}} €/notte</td>
+    </tr>
+
+    <tr>
+      <td colspan=2 class="text-center">
+        <a class="btn btn-primary" href="mailto:prenota@trecamini.net?subject=Richiesta prenotazione">
+          Contattaci per prenotare
+        </a>
+      </td>
     </tr>
 
   </tbody>

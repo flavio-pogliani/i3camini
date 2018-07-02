@@ -5,12 +5,14 @@ offerte:
   lezione: 40
 
 tariffe:
-  doppia_singolo: 45
+  doppia_singolo:
+    da: 45
+    a: 55
   doppia:
     da: 55
     a:  70
   tripla:
-    da: 70
+    da: 75
     a:  90
   letto: 15
   sconto: 10
