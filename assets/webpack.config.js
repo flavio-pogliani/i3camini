@@ -1,6 +1,6 @@
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var sass = new ExtractTextPlugin("[name].css");
-var bower_dir = __dirname + "/bower_components";
+var bower_dir = __dirname + "/node_modules";
 
 module.exports = {
   entry: "./js/entry.js",

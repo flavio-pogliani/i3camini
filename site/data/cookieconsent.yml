@@ -1,0 +1,15 @@
+en:
+  allow: "Allow cookies"
+  deny: "Decline"
+  href: "/en/privacy.html"
+  link: "Learn more"
+  message: "Optional features that require cookies are available"
+  policy: "Cookie Policy"
+
+it:
+  allow: "Consenti ai cookie"
+  deny: "Rifiuta"
+  href: "/en/privacy.html"
+  link: "Ulteriori informazioni"
+  message: "Funzionalità aggiuntive che richiedono cookie sono disponibili"
+  policy: "Consenso ai cookie"

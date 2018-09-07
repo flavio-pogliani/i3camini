@@ -4,13 +4,16 @@ require("bootstrap");
 
 require("blueimp-gallery");
 require(
-  "../bower_components/blueimp-gallery/js/" +
+  "../node_modules/blueimp-gallery/js/" +
   "jquery.blueimp-gallery.js"
 );
 require(
-  "../bower_components/blueimp-bootstrap-image-gallery/js" +
+  "../node_modules/blueimp-bootstrap-image-gallery/js" +
   "/bootstrap-image-gallery.js"
 );
+
+require("cookieconsent");
+require("./cookieconsent-optin");
 
 
 // Include style.

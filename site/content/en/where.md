@@ -24,8 +24,8 @@ To check availability and to book rooms contact us:
     <img src="/images/map.jpg">
   </div>
 
-  <div class="col-xs-7">
-    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAhMNXOEwBGUnS2CUKfXJjqS8YgS-3BOvQ&q=place_id:ChIJMY2ZFrcXhEcRP6gMmCUUAuU"
-        width="100%" height="480"></iframe>
+  <div id="gmaps" class="col-xs-7">
+    The interactive map (powered by <a href="https://www.google.co.uk/maps/">Google Maps</a>)
+    requires cookies consent.
   </div>
 </div>

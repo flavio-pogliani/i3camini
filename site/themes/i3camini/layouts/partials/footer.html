@@ -1,0 +1,28 @@
+{{ $lang := .Params.lang | default "en" }}
+
+<!-- Footer for links in each page -->
+<footer class="footer navbar-fixed-bottom">
+  <div class="container">
+    <p class="text-muted">
+      {{ $privacy := index .Site.Data.footer.privacy $lang }}
+      {{ $privacy := $privacy | default .Site.Data.footer.privacy.en }}
+      {{ $privacy | safeHTML }}
+    </p>
+  </div>
+</footer>
+
+<!-- Cookie content code -->
+{{ $cookieconsent_lang := index .Site.Data.cookieconsent $lang }}
+{{ $cookieconsent_lang := $cookieconsent_lang | default .Site.Data.cookieconsent.en }}
+<script>
+  window.addEventListener("load", function() {
+    window.cookieconsent_init({
+      allow: "{{ $cookieconsent_lang.allow }}",
+      deny: "{{ $cookieconsent_lang.deny }}",
+      href: "{{ $cookieconsent_lang.href }}",
+      link: "{{ $cookieconsent_lang.link }}",
+      message: "{{ $cookieconsent_lang.message }}",
+      policy: "{{ $cookieconsent_lang.policy }}"
+    });
+  });
+</script>

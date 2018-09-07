@@ -1,6 +1,9 @@
 body {
   background-image: url('./background.jpg');
   background-size:  cover;
+
+  /* Margin bottom raised by footer height */
+  margin-bottom: 60px;
 }
 
 .navbar-brand,
@@ -22,4 +25,19 @@ nav.navbar {
 
 body > div.content {
   margin-top: 80px;
+}
+
+body > .footer {
+  background-color: rgb(231, 231, 231);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  /* Fix the height of the footer */
+  height: 60px;
+
+  .container {
+    text-align: center;
+    padding: 15px 0;
+  }
 }
