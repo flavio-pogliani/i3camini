@@ -9,7 +9,7 @@ en:
 it:
   allow: "Consenti ai cookie"
   deny: "Rifiuta"
-  href: "/en/privacy.html"
+  href: "/it/privacy.html"
   link: "Ulteriori informazioni"
   message: "Funzionalità aggiuntive che richiedono cookie sono disponibili"
   policy: "Consenso ai cookie"

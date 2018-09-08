@@ -25,7 +25,7 @@ Per verificare le disponibilità e per perenotazioni camere contattateci:
   </div>
 
   <div id="gmaps" class="col-xs-7">
-    La mappa interattiva (offerta da <a href="https://www.google.co.uk/maps/">Google Maps</a>)
+    La mappa interattiva (offerta da <a href="https://www.google.it/maps/">Google Mappe</a>)
     richiede il consenso ai cookie.
   </div>
 </div>
