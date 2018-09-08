@@ -6,9 +6,9 @@ OPTIMISE ?= yes
 build:
 	npm install
 ifeq ($(OPTIMISE), yes)
-	$(shell npm bin)/webpack --optimize-minimize
+	$(shell npm bin)/webpack --mode=production
 else
-	$(shell npm bin)/webpack
+	$(shell npm bin)/webpack --mode=development
 endif
 
 clean:

@@ -1,78 +1,82 @@
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
-var sass = new ExtractTextPlugin("[name].css");
-var bower_dir = __dirname + "/node_modules";
+const path = require('path');
+const webpack = require('webpack');
+
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
+const sass = new ExtractTextPlugin("[name].css");
+
 
 module.exports = {
   entry: "./js/entry.js",
   output: {
-    path: "../site/themes/i3camini/static/",
+    path: path.resolve(__dirname, "..", "site", "themes", "i3camini", "static"),
     filename: "[name].js"
   },
   resolve: {
     alias: {
-      "blueimp-gallery": bower_dir + "/blueimp-gallery/js/blueimp-gallery.js",
-      "bootstrap": bower_dir + "/bootstrap/dist/js/bootstrap.js",
-      "jquery": bower_dir + "/jquery/src/jquery.js"
+      // `blueimp-bootstrap-image-gallery` looks for `blueimp-gallery` in the worng place.
+      "./blueimp-gallery": path.resolve(
+        __dirname, "node_modules", "blueimp-gallery", "js", "blueimp-gallery.js"
+      ),
     }
   },
-
   module: {
-    loaders: [{
-      test: /\.scss$/,
-      loader: sass.extract(["css", "sass"])
-    },
+    rules: [{
+      test: /\.(scss)$/,
+      use: sass.extract({
+        fallback: 'style-loader',
+        use: [{
+          loader: 'css-loader'
+        }, {
+          loader: 'sass-loader'
+        }]
+      })
 
-    // Hack required for blueimp gallery.
-    // https://gist.github.com/chlab/fe7b8b4116fe79121035107be7e8b2ad
-    {
-      test: require.resolve(
-        bower_dir + "/blueimp-bootstrap-image-gallery/js/" +
-        "bootstrap-image-gallery"
-      ),
-      loader: "imports?define=>false"
+    // Load images
     }, {
-      test: require.resolve(
-        bower_dir + "/blueimp-gallery/js/blueimp-gallery.js"
-      ),
-      loader: "imports?define=>false"
-    }, {
-      test: require.resolve(
-        bower_dir + "/blueimp-gallery/js/jquery.blueimp-gallery.js"
-      ),
-      loader: "imports?define=>false"
-    },
+      test: /\.(jpg|png|gif)$/,
+      use: [{
+        loader: 'url-loader'
+      }]
 
-    // Copy files from assets to output.
-    {
-      test: /\.jpg$/,
-      loader: "file"
+    // Fonts rules
     }, {
-      test: /\.png$/,
-      loader: "file"
-    }, {
-      test: /\.gif$/,
-      loader: "file"
-    },
-
-    // Configuration needed by Bootstrap themes.
-    // the url-loader uses DataUrls.
-    // the file-loader emits files.
-    {
       test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'url?limit=10000&mimetype=application/font-woff'
+      use: [{
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+          mimetype: 'application/font-woff'
+        }
+      }]
     }, {
       test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'url?limit=10000&mimetype=application/octet-stream'
+      use: [{
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+          mimetype: 'application/octet-stream'
+        }
+      }]
     }, {
       test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'file'
+      use: [{loader: 'file-loader'}]
     }, {
       test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-      loader: 'url?limit=10000&mimetype=image/svg+xml'
+      use: [{
+        loader: 'url-loader',
+        options: {
+          limit: 10000,
+          mimetype: 'application/svg+xml'
+        }
+      }]
     }]
   },
-
   plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
+    }),
     sass
   ]
 };
