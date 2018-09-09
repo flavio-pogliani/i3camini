@@ -42,12 +42,12 @@ make -C assets build
 
 ### Site
 ```
-cd site && hugo
+cd site && hugo-0.16
 ```
 
 ### Upload
 ```bash
-aws --profile=trecamini-net s3 sync --delete out s3://origin.trecamini.net
+aws s3 sync out s3://<BUCKET> --delete --dryrun
 ```
 
 
