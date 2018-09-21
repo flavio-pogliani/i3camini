@@ -73,7 +73,7 @@ All prices include breakfast.
 
     <tr>
       <td colspan=2 class="text-center">
-        <a class="btn btn-primary" href="mailto:prenota@trecamini.net?subject=Booking request">
+        <a class="btn btn-primary" href="mailto:prenota@trecamini.net?subject=Booking%20request">
           Contact us to book
         </a>
       </td>
@@ -89,7 +89,7 @@ VISA and MasterCard are accepted.
 
 To check availability and to book contact us:
 
-  * By e-mail writing to [prenota@trecamini.net](mailto:prenota@trecamini.net)
+  * By e-mail writing to [prenota@trecamini.net](mailto:prenota@trecamini.net?subject=Booking%20request)
   * By phone calling number 0039 3771998356
 
 

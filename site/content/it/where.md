@@ -15,7 +15,7 @@ Ci trovate in Perledo, Lecco, via per Esino, 68.
 
 Per verificare le disponibilità e per perenotazioni camere contattateci:
 
-  * Via e-mail scrivendo a [prenota@trecamini.net](mailto:prenota@trecamini.net).
+  * Via e-mail scrivendo a [prenota@trecamini.net](mailto:prenota@trecamini.net?subject=Richiesta%20prenotazione).
   * Telelefonicamente chiamando il numero 0039 3771998356.
 
 

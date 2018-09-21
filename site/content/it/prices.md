@@ -73,7 +73,7 @@ Tutte le tariffe includono la colazione.
 
     <tr>
       <td colspan=2 class="text-center">
-        <a class="btn btn-primary" href="mailto:prenota@trecamini.net?subject=Richiesta prenotazione">
+        <a class="btn btn-primary" href="mailto:prenota@trecamini.net?subject=Richiesta%20prenotazione">
           Contattaci per prenotare
         </a>
       </td>
@@ -89,7 +89,7 @@ Si accettano Bancomat, VISA e MasterCard.
 
 Per verificare le disponibilità e per perenotazioni camere contattateci:
 
-  * Via e-mail scrivendo a [prenota@trecamini.net](mailto:prenota@trecamini.net)
+  * Via e-mail scrivendo a [prenota@trecamini.net](mailto:prenota@trecamini.net?subject=Richiesta%20prenotazione)
   * Telefonicamente chiamando il numero 0039 3771998356
 
 
