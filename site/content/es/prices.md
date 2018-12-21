@@ -31,7 +31,7 @@ The following offers are available for 2 guests:
    €/persona (ver 'club').
 
 For more information contact Flavio at the address
-[info@trecamini.net](info@trecamini.net) or at number 0039 3771998356.
+[info@trecamini.net](mailto:info@trecamini.net) or at number 0039 3771998356.
 
 
 Prices

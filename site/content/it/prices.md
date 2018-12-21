@@ -26,7 +26,7 @@ Le seguenti offerte sono disponibili per 2 ospiti:
    €/persona (vedi club).
 
 Per maggiori informazioni contattate Flavio all'indirizzo
-[prenota@trecamini.net](prenota@trecamini.net) o al numero 0039 3771998356.
+[prenota@trecamini.net](mailto:prenota@trecamini.net) o al numero 0039 3771998356.
 
 
 Tariffe
