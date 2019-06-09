@@ -15,12 +15,12 @@ We rely on third parties to provide some of the functionality offered by this we
 
 ### Amazon AWS CloudFront
 This website is hosted on AWS CloudFront and AWS S3.  
-More information about their privacy policy is accessible on the
+For more information, their privacy policy is accessible on the
 [AWS Privacy Policy](https://aws.amazon.com/privacy/) page.
 
 ### Google Maps
 This website includes an **optional** interactive map powered by Google Maps.  
-More information about thier privacy policy is accessible on the
+For more information, thier privacy policy is accessible on the
 [Google Privacy Policy](https://policies.google.com/privacy?hl=en-GB) page.
 
 
