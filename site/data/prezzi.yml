@@ -7,12 +7,12 @@ offerte:
 tariffe:
   doppia_singolo:
     da: 45
-    a: 55
+    a: 65
   doppia:
     da: 55
-    a:  70
+    a:  90
   tripla:
     da: 75
-    a:  90
+    a:  110
   letto: 15
   sconto: 10
