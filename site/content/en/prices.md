@@ -101,7 +101,7 @@ perfect panoramic view.
 
 We offer 2 rooms, Rubin and Topaz with perfect panoramic view, bathroom with
 hydromassage shower, common room with WiFi and parking Ticket in Varenna
-station park. Breakfast included. Private garden, car parking. 
+station park. Breakfast included. Private garden, free parking ticket.
 Reception in Italian and English.
 
 Our BB it's a perfect base both for your trips on lake or in

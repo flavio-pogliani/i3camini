@@ -98,7 +98,8 @@ La struttura
 Sito in Perledo (Varenna) sul lago di Como, Vi mettiamo a disposizione 2
 stanze, la Rubino e la Topazio con splendida vista panoramica, bagno con
 doccia idromassaggio, giardino, sala comune per la colazione e per il
-vostro relax, WI-FI, parking ticket.
+vostro relax, WI-FI, parking ticket gratuito.
+Reception in Italiano ed Inglese.
 
 Disponibilità posto auto coperto Eliana e Flavio saranno lieti di
 offrirvi informazioni turistiche e storiche dei luoghi e suggerimenti
