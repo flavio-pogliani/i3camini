@@ -14,88 +14,11 @@ lang = "de"
 </div>
 
 
-Offers (for 2 guests)
----------------------
-The following offers are available for 2 guests:
-
- * 1 night and dinner for only
-   {{< data "prezzi" "offerte" "notte_e_cena" >}}
-   € (excluding beverages, see club).
- * 1 night and 1 cooking lesson for only
-   {{< data "prezzi" "offerte" "notte_e_lezione" >}} € (see club).
- * 2 nights and 1 dinner for only
-   {{< data "prezzi" "offerte" "2_notti_e_1_cena" >}}
-   € (excluding beverages, see club).
- * 1 cooking lesson
-   {{< data "prezzi" "offerte" "lezione" >}}
-   €/person (see club).
-
-For more information contact Flavio at the address
-[info@trecamini.net](mailto:info@trecamini.net) or at number 0039 3771998356.
-
-
 Prices
 ------
-All prices include breakfast.
+The B&B I3 Camini is closed until further notice.
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Room</th>
-      <th>Price per night</th>
-    </tr>
-  </thead>
-  <tbody>
-
-    <tr>
-      <td>Double room (single use)</td>
-      <td>
-        From {{< data "prezzi" "tariffe" "doppia_singolo" "da" >}}
-        to {{< data "prezzi" "tariffe" "doppia_singolo" "a" >}} €/night
-      </td>
-    </tr>
-
-    <tr>
-      <td>Double room</td>
-      <td>
-        From {{< data "prezzi" "tariffe" "doppia" "da" >}}
-        to {{< data "prezzi" "tariffe" "doppia" "a" >}} €/night
-      </td>
-    </tr>
-
-    <tr>
-      <td>Triple room</td>
-      <td>
-        From {{< data "prezzi" "tariffe" "tripla" "da" >}}
-        to {{< data "prezzi" "tariffe" "tripla" "a" >}} €/night
-      </td>
-    </tr>
-
-    <tr>
-      <td>Supplementary bed</td>
-      <td>{{< data "prezzi" "tariffe" "letto" >}} €/night</td>
-    </tr>
-
-    <tr>
-      <td colspan=2 class="text-center">
-        <a class="btn btn-primary" href="mailto:prenota@trecamini.net?subject=Booking%20request">
-          Contact us to book
-        </a>
-      </td>
-    </tr>
-
-  </tbody>
-</table>
-
-{{< data "prezzi" "tariffe" "sconto" >}}% discount from the third night in a row.
-This discount cannot be combined with other promotions.
-
-VISA and MasterCard are accepted.
-
-To check availability and to book contact us:
-
-  * By e-mail writing to [prenota@trecamini.net](mailto:prenota@trecamini.net?subject=Booking%20request)
-  * By phone calling number 0039 3771998356
+We thank all our guests who offered us the pleasure of their company over the years.
 
 
 Gebäude
@@ -117,8 +40,3 @@ geboten wird, schaetzen lernen.
 Mit Vergnuegen stehen Ihnen Eliana und Flavio mit ihren Geschichts-und
 Ortskenntnissen zur Verfuegung, um Ihnen Ihren Aufenthalt so angenehm
 wie irgend moeglich zu gestalten.
-
-
-Opening season
---------------
-The B&B I3 Camini is open from March to November and during the Christmas period.
