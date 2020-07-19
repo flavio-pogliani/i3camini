@@ -13,10 +13,7 @@ The location
 ------------
 Our address is Perledo, Lecco, via per Esino, 68.
 
-To check availability and to book rooms contact us:
-
-  * By e-mail writing to [prenota@trecamini.net](mailto:prenota@trecamini.net?subject=Booking%20request).
-  * By phone calling number 0039 3771998356.
+Contact: [info@trecamini.net](mailto:info@trecamini.net).
 
 
 <div class="row">
